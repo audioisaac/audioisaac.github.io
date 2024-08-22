@@ -1,0 +1,269 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-description {
+    padding: 1rem;
+}
+
+.photo-description h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+}
+
+.photo-description p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.top-songs {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-songs h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.top-songs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-songs li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #444;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Add these styles to your existing CSS */
+
+.merchandise {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.merchandise h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.merch-item {
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.merch-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.merch-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.merch-item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.praise h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #444;
+}
+
+.fancy-text {
+    background: linear-gradient(to bottom, #fff0f0, #f5e1e1);
+    border: 2px solid #e0c0c0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+    color: #3a3a3a;
+    line-height: 1.8;
+}
+
+.fancy-text p {
+    font-size: 1.2em;
+    text-indent: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.fancy-text p:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    line-height: 0.7;
+    padding-right: 10px;
+    color: #b02b2b;
+}
+
+.fancy-text p::before {
+    content: '“';
+    font-size: 3em;
+    color: #b02b2b;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+
+.fancy-text p::after {
+    content: '”';
+    font-size: 3em;
+    color: #b02b2b;
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+    color: white;
+    margin-top: 20px;
+}
+
+.merch-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.merch-item h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.acronym h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #444;
+}
+
+.acronym p {
+    font-size: 1.3em;
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+    text-indent: 50px;
+}
+
+.acronym p strong {
+    font-size: 1.5em;
+    color: #b02b2b;
+    font-weight: bold;
+    margin-right: 5px;
+}
