@@ -11,12 +11,17 @@
 }
 
 p {
-    color: brown;
+    font-size: 16px;
 }
 
 .often {
     background-color: #FFFDD0;
     background-size: auto;
+}
+
+.week2 {
+    border-width: 5px;
+    border-color: black;
 }
 
 #unique {
