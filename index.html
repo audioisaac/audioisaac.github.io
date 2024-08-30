@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <style>
-        .profile-container {
-            text-align: center;
-            margin-top: 50px;
-        }
-        .profile-container img {
-            border-radius: 50%;
-            width: 150px; /* Adjust as needed */
-            height: 150px; /* Adjust as needed */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="profile-container">
         <img src="images/profile.jpg" alt="Profile Picture">
         <h1>Isaac</h1>
         <p>Welcome to my website!</p>
-        <p>I'm a Year 2 Software Engineering student but I don't consider myself much of a "tech" person. My strengths lie more towards the humanities — I'd love to curl up with a good book — and music. Also an arbitrary fact about me is that my neck is more than 6 inches long. Thank you for coming to my TEDTalk and good luck sleeping with that unsettling fact. Adios baby!</p>
+        <p>I'm a Year 2 Software Engineering student but I don't consider myself much of a "tech" person. 
+            My strengths lie more towards the humanities — I'd love to curl up with a good book — and music. 
+            Also an arbitrary fact about me is that my neck is more than 6 inches long. 
+            Thank you for coming to my TEDTalk and good luck sleeping with that unsettling fact. Adios baby!
+        </p>
+
+        <p>In week 2, we learnt how to use selectors.
+            <ul>
+                Firstly, we learnt about Element Selectors, such as using it on &lt;p&gt.
+                Here, I have made the colour of ALL paragraph text to be brown!
+            </ul>
+            <ul class="often">
+                Secondly, we learnt about Class Selectors, which starts with a ".". 
+                We can use this recurring instances! 
+                All elements with the class "often" will have a cream-coloured background.
+            </ul>
+            <ul id="unique" class="often">
+                Finally, we learnt about ID Selectors, which starts with a "#".
+                We can use this for unique instances!
+                All elements with the id "unique" will have a border around them.
+            </ul>
+        </p>
+        </p>
     </div>
 </body>
 </html>

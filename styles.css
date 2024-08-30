@@ -1,0 +1,24 @@
+/* element selectors */
+
+.profile-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.profile-container img {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+}
+
+p {
+    color: brown;
+}
+
+.often {
+    background-color: #FFFDD0;
+}
+
+#unique {
+    border-width: 5px;
+    border-color: pink;
+}
