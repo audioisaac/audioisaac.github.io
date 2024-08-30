@@ -23,6 +23,7 @@ p {
     border: solid;
     border-color: black;
     border-width: 5px;
+    position:relative;
 }
 
 #unique {
