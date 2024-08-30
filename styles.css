@@ -25,6 +25,7 @@ p {
     border-width: 5px;
     position:relative;
     left: 20px;
+    font-size: 20px;
 }
 
 #unique {
