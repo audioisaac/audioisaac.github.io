@@ -40,3 +40,13 @@ p {
     bottom: 20px;
     right: 20px;
 }
+
+.absolute-element {
+    background-color: darkcyan;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
