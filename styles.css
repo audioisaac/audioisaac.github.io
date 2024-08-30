@@ -20,11 +20,13 @@ p {
 }
 
 .week2 {
-    border-width: 5px;
+    border-style: solid;
     border-color: black;
+    border: 5px
 }
 
 #unique {
     border-width: 5px;
     border-color: pink;
+    font-style: italic;
 }
